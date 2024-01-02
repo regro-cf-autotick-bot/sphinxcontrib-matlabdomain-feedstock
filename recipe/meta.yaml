@@ -1,5 +1,5 @@
 {% set name = "sphinxcontrib-matlabdomain" %}
-{% set version = "0.21.2" %}
+{% set version = "0.21.3" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/sphinxcontrib-matlabdomain-{{ version }}.tar.gz
-  sha256: 32e7563d20bde97a30e6b66df7a95a50145e0534e229dca3223fb7fe8fc22ab1
+  sha256: 210ee52da4196a4d536797339b22573e0e23991cb4ff8858d98c366278ab1cb0
 
 build:
   noarch: python
